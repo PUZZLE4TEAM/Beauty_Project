@@ -3,9 +3,9 @@
 <div id="carrosselPrincipal" class="carousel slide" data-ride="carousel">
     <!-- incadores -->
     <ol class="carousel-indicators">
-        <!--<li data-target="#carrosselPrincipal" data-slide-to="0" class="active"></li>
+        <li data-target="#carrosselPrincipal" data-slide-to="0" class="active"></li>
         <li data-target="#carrosselPrincipal" data-slide-to="1"></li>
-        <li data-target="#carrosselPrincipal" data-slide-to="2"></li>-->
+        <li data-target="#carrosselPrincipal" data-slide-to="2"></li>
     </ol>
 
     <!-- k_change -->
@@ -13,15 +13,15 @@
             <div class="carousel-inner">   
                 <div id="underBack"></div>
                 <div class="item active">
-                    <img src="content/img/mulher-no-salao-beleza.jpg" style="width: 70%" alt=""/>
+                    <img src="../Content/img/mulher-no-salao-beleza.jpg" style="width: 70%" alt=""/>
                     
                 </div>
                 <div class="item" >
-                    <img src="content/img/como-atrair-homens-para-o-salao-1.jpg"/>
+                    <img src="../Content/img/como-atrair-homens-para-o-salao-1.jpg"/>
                 </div>
 
                 <div class="item" >
-                    <img src="content/img/extra_large_cropped_GettyImages-506514230.jpg"  alt=""/>
+                    <img  src="../Content/img/extra_large_cropped_GettyImages-506514230.jpg"  alt=""/>
                 </div>
                  
             </div>   
@@ -42,7 +42,7 @@
                     <div class="col-md-12"> <img src="../Content/img/barba.jpg" alt=""/>  </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12"> <h2>Corte de Barba0</h2>  </div>
+                    <div class="col-md-12"> <h2>Corte de Barba </h2>  </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-6"><strong>Categoria: </strong>Barba</div>
