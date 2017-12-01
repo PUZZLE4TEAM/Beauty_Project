@@ -6,7 +6,7 @@
         <title>angoHair</title>
         <style>
             body{
-                background: #eee;
+                background: #aaa;
                 font-family: arial;
             }
             main{
