@@ -43,7 +43,12 @@
                
             </p>
             <p>
-                 Obrigado!
+                 Obrigado, e visite o nosso site em <a href="#">Beauty.com</a>> 
+
+                 <p>
+                     puzzle, todos os direitos reservados.
+
+                 </p>
             </p>
         </main>
         
