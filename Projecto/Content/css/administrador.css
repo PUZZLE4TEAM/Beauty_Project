@@ -1,0 +1,19 @@
+a{
+    cursor:  pointer; 
+}
+header{
+    background: #09c;
+}
+#user a{
+    background: #08b;
+}
+.activo{
+    color: #07a;
+}
+nav a:hover{
+    color: #07a;
+}
+.disabled{
+    pointer-events: none;
+    opacity: .5;
+}

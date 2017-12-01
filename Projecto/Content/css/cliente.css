@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('../fonts/AlegreyaSans-Regular.ttf');
+ }
+body{
+    overflow-x: hidden;
+}
+a{
+    cursor: pointer;
+}
+.disabled{
+    pointer-events: none;
+    opacity: .5;
+}
+#imgBanner{
+    position: absolute;
+    z-index: -1;
+    width: 100.2%;
+    margin-top: -40px;
+    margin-left: -1px;
+}
+.logo{
+    margin-top: 80px;
+}
+.logo img{
+    position: absolute;
+    z-index: 10;
+    top: -30px;
+}
+.logo h2{
+    margin-top: -10px;
+}
+#home{
+    margin-top: 45%;
+}
+
+#litleDash{
+     margin-top: 30px;
+}
+#litleDash .col-md-3{
+    border:2px solid #999;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#litleDash .col-md-3:hover{
+    background: #fdb171;
+    border-color: #fff;
+    transition: all .5s ease-in;
+  
+}
+#litleDash h1{
+    color: #111;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+input[type=search]{
+    font-size: 1.2em;
+    height: 40px;
+    
+}
+#search{
+    margin-left: -10px;
+}
+.fa-remove{
+    color: #f00;
+}
+.fa-remove,.fa-edit{
+    font-size: 1.3em !important;
+}
+
+#tblMarcacao tbody tr:nth-child(2n+1){
+    background: #ffd;
+}
+
+
+.price{
+    float: right;
+    font-family: "Alegreya Sans";
+    font-size: 22pt;
+    margin-top: -10px;
+}
+
+.service{
+    padding: 10px;
+    margin: 7px -8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.service img{
+    width: 100%;
+}
+.service a{
+    float: left;
+    margin-top: -12px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 7px;
+    background: #eee;
+    color: #000;
+}
+
+
+/** Form controls...*/
+.form-control{
+    border:1px solid #999 !important;
+    border-radius: 0 !important;
+}
+#addMarcacao,#finalizarMarcacao{
+    float: left;
+    width: 100%;
+    padding: 7px;
+    background: #695b4e;
+    border: 0;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 2px;
+}
+#finalizarMarcacao{
+    background: #ad7d6f;
+}
+
+.in_cat,.in_serv,.in_prof,.in_hora,.in_data{
+    border: 0;
+    background: transparent;
+    float: left;
+    width: 100%;
+    font-size: 1em;
+}
+
+#tbl_marcacao button{
+    border: 0;
+    background: transparent;
+    color: #c00;
+    font-size: 1.3em;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
